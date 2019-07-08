@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>List page</title>
+        <link href = "createPage.css" rel ="stylesheet">
+        <link href = "listPage.css" rel ="stylesheet">
+    </head>
+    <body>
+        <div id = "list_container">
+            <div id = "search_box_container">
+                 <input type="text" id = "search_box" placeholder = "Enter name to search">
+            </div>
+            <table id = "place_list">
+                    <tr id = "table_header">
+                        <th>NAME</th>
+                        <th>ADDRESS</th>
+                        <th>RATING</th>
+                        <th>PICTURE</th>
+                        <th>ACTION</th>
+                    </tr>
+                    <tr id = "lalbaghFort">
+                        <td>Lalbagh Fort</td>
+                        <td>Lalbagh</td>
+                        <td>1</td>
+                        <td><img src = "images/lalbaghfort.jpg" alt = "Lalbagh Fort"></td>
+                        <td>
+                            <div class = "action_button_container">
+                                <button type="button" id = "update_btn">Update</button>
+                                <button type="button" id = "delete_btn">Delete</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr id = "mahasthangor">
+                        <td>Mahasthan Gor</td>
+                        <td>Comilla</td>
+                        <td>1</td>
+                        <td><img src = "images/mahasthangor.jpg" alt = "Mahasthan Gor"></td>
+                        <td>
+                            <div class = "action_button_container">
+                                <button type="button" id = "update_btn">Update</button>
+                                <button type="button" id = "delete_btn">Delete</button>
+                            </div>
+                        </td>
+                    </tr>
+            </table>
+            <button type = "button" id = "new_place_btn">Create New Tourist Place</button>
+        </div>
+        
+    </body>
+</html>

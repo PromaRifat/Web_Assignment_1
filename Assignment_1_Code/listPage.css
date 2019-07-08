@@ -1,0 +1,66 @@
+#place_list {
+   margin: 10px;
+}
+#place_list, #place_list th {
+    border: 1px solid black;
+}
+
+ tr:nth-child(odd){
+    background-color: #f2f2f2;
+} 
+
+#place_list th{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: black;
+    color: azure;
+}
+#place_list td{
+    text-align: center;
+}
+
+#place_list td img{
+    height: 80%;
+    width: 60%;
+}
+#search_box{
+    padding-left: 10px;
+    margin: 10px;
+}
+ #new_place_btn{
+    height: 40px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #4c80e6;
+    color: white;
+    font-size: 95%;
+ }
+
+ #update_btn, #delete_btn{
+     height: 40px;
+     width: 90px;
+     border-radius: 8px;
+     outline: none;
+     margin-top: 10px;
+     margin-bottom: 10px; 
+ }
+
+ #update_btn{
+     margin-left: 30px;
+     margin-right: 5px;
+     background-color: #3d7af5; 
+     color: white;
+     font-size: 95%
+ }
+
+ #delete_btn{
+    margin-right: 30px;
+    margin-left: 5px;
+    background-color:  #ff4d4d; 
+    color: white;
+    font-size: 95%
+}
