@@ -1,2 +1,2 @@
 # Web_Assignment_1
-Two pages of a tourist website
+Two pages of a tourist place website
