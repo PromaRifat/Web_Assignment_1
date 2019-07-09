@@ -1,48 +1,72 @@
 #place_list {
+   width: 70%;
    margin: 10px;
 }
 #place_list, #place_list th {
     border: 1px solid black;
 }
 
- tr:nth-child(odd){
+#place_list tr:nth-child(odd){
     background-color: #f2f2f2;
 } 
 
+
 #place_list th{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 10%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2vmin;
     background-color: black;
     color: azure;
 }
+
+
 #place_list td{
     text-align: center;
+    font-size: 2vmin;
 }
 
 #place_list td img{
-    height: 80%;
+    height: 60%;
     width: 60%;
 }
+
 #search_box{
-    padding-left: 10px;
-    margin: 10px;
+    padding-left: 1%;
+    margin: 1%;
 }
+
+#search_box_container input{
+    width: 35%;
+    height: 30px;
+    font-size: 2vmin;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    outline: none;
+}
+
  #new_place_btn{
     height: 40px;
-    width: 200px;
+    width: 20%;
     margin: 10px;
     border-radius: 10px;
     outline: none;
     background-color: #4c80e6;
     color: white;
-    font-size: 95%;
+    font-size: 2vmin;
+    
+ }
+
+ #action_button_container{
+     display: flex;
+     flex-wrap: nowrap;
  }
 
  #update_btn, #delete_btn{
-     height: 40px;
-     width: 90px;
+     height: 6vmin;
+     width: 10vmin;
      border-radius: 8px;
      outline: none;
      margin-top: 10px;
@@ -50,16 +74,16 @@
  }
 
  #update_btn{
-     margin-left: 30px;
-     margin-right: 5px;
+     margin-left: 1%;
+     margin-right: 2%;
      background-color: #3d7af5; 
      color: white;
      font-size: 95%
  }
 
  #delete_btn{
-    margin-right: 30px;
-    margin-left: 5px;
+    margin-right: 1%;
+    margin-left: 2%;
     background-color:  #ff4d4d; 
     color: white;
     font-size: 95%
